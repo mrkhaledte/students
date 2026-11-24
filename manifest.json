@@ -1,7 +1,7 @@
 {
-  "name": "Khaled Elagamy",
-  "short_name": "Khaled Elagamy",
-  "description": "نظام الحضور والامتحانات - Khaled Elagamy",
+  "name": "Mr Khaled Elagamy",
+  "short_name": "Mr Khaled Elagamy",
+  "description": "Mr Khaled Elagamy",
   "lang": "ar",
   "dir": "rtl",
   "id": "./",
@@ -12,8 +12,8 @@
   "background_color": "#081a36",
   "theme_color": "#172554",
   "icons": [
-    { "src": "icon-192.png?v=2", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png?v=2", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-maskable-512.png?v=2", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    { "src": "icon-192.png?v=3", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png?v=3", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png?v=3", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
