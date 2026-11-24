@@ -1,6 +1,6 @@
 // Service Worker بسيط: بيخلّي الموقع قابل للتثبيت كتطبيق، ويفتح آخر نسخة لو النت قطع لحظياً.
 // network-first: الموقع بيجيب أحدث نسخة دايماً من النت، والكاش احتياطي بس.
-const CACHE = 'elagamy-v1';
+const CACHE = 'elagamy-v2';
 const ASSETS = ['./', 'index.html', 'manifest.json', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
