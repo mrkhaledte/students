@@ -343,7 +343,7 @@ body{min-height:100vh;min-height:100dvh;padding-top:env(safe-area-inset-top,0px)
                     <button onclick="exportAllDataToExcel()" title="تصدير كل البيانات (الطلاب، الحضور، الغياب، التقييمات، الامتحانات، المدفوعات) في ملف Excel" class="px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-xl flex items-center gap-1.5 transition">
                         <i class="fa-solid fa-file-excel"></i> <span class="hidden sm:inline">تصدير كل البيانات</span>
                     </button>
-                    <span id="headerAdminName" class="hidden md:inline text-xs font-bold bg-white/10 px-3 py-1.5 rounded-full border border-white/10 text-white max-w-[180px] truncate">مدير النظام</span>
+                    <span id="headerAdminName" dir="auto" style="unicode-bidi:plaintext" class="hidden md:inline text-xs font-bold bg-white/10 px-3 py-1.5 rounded-full border border-white/10 text-white max-w-[180px] truncate">مدير النظام</span>
                     <button onclick="toggleLang()" title="Language / اللغة" class="px-2 py-1.5 bg-white/10 hover:bg-white/20 text-white text-[11px] font-bold rounded-xl border border-white/10"><i class="fa-solid fa-language"></i> <span class="lang-label">EN</span></button>
                     <button onclick="toggleTheme()" title="Dark / Light" class="p-2 text-blue-200 hover:text-white hover:bg-white/5 rounded-xl"><i class="fa-solid fa-moon text-base theme-ico"></i></button>
                     <button onclick="openChangePasswordModal()" title="تغيير كلمة المرور" class="p-2 text-blue-200 hover:text-white hover:bg-white/5 rounded-xl"><i class="fa-solid fa-key text-base"></i></button>
